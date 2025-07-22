@@ -5,8 +5,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-
-
 const mattePalette = {
   card: "bg-[#23272f] bg-opacity-90",
   accent: "bg-gradient-to-r from-[#3b82f6] to-[#818cf8]",
@@ -57,8 +55,9 @@ const ProductCard = ({ product }) => {
         boxShadow: "0 2px 24px 0 rgba(60,64,67,0.12)",
       }}
     >
+      <div 
       
-      <div className="absolute -top-8 -right-8 w-32 h-32 bg-gradient-to-br from-[#818cf8]/30 to-[#3b82f6]/10 rounded-full blur-2xl -z-10 animate-pulse pointer-events-none" />
+      className="absolute -top-8 -right-8 w-32 h-32 bg-gradient-to-br from-[#818cf8]/30 to-[#3b82f6]/10 rounded-full blur-2xl -z-10 animate-pulse pointer-events-none" />
       <motion.img
         src={product.image}
         alt={product.title}
@@ -73,7 +72,9 @@ const ProductCard = ({ product }) => {
         <h3 className="font-extrabold text-lg mb-1 bg-gradient-to-r from-[#3b82f6] via-[#818cf8] to-[#60a5fa] bg-clip-text text-transparent drop-shadow-lg">
           {product.title}
         </h3>
-        <p className={`uppercase tracking-wide text-xs font-semibold mb-2 ${mattePalette.accentText}`}>
+        <p
+          className={`uppercase tracking-wide text-xs font-semibold mb-2 ${mattePalette.accentText}`}
+        >
           {product.type}
         </p>
         <p className={`${mattePalette.subtext} text-sm flex-1 mb-3`}>
@@ -95,14 +96,15 @@ const ProductCard = ({ product }) => {
             ))}
           </span>
           <span className="text-gray-400 text-xs ml-1">
-            {product.rating} <span className="opacity-60">({product.reviews})</span>
+            {product.rating}{" "}
+            <span className="opacity-60">({product.reviews})</span>
           </span>
         </div>
         <div className="font-bold text-lg mb-3 bg-gradient-to-r from-[#3b82f6] to-[#818cf8] bg-clip-text text-transparent drop-shadow">
           {product.price}
         </div>
         <motion.a
-          href="#"
+          href={product.source}
           className={`mt-auto inline-block px-4 py-2 rounded-md font-semibold text-sm text-white shadow-md transition-all duration-200 ${mattePalette.accent} hover:${mattePalette.accentHover} focus:outline-none focus:ring-2 focus:ring-[#818cf8]`}
           whileHover={{
             scale: 1.06,

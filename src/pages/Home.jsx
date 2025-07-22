@@ -221,7 +221,7 @@ const Home = () => {
         </motion.div>
       </section>
 
-      {/* Stats Section */}
+
       <section
         ref={statsRef}
         className="max-w-6xl mx-auto bg-[#23272f] bg-opacity-95 rounded-2xl shadow-2xl flex flex-col md:flex-row justify-between items-center py-14 px-6 mb-12 border border-[#3b3f4a]"
@@ -274,6 +274,7 @@ const Home = () => {
                 boxShadow: "0 8px 32px #3b82f6",
                 backgroundColor: "#2d313a"
               }}
+              onClick={() => (window.location.href = "https://pattarshreya.ck.page/")}
             >
               <motion.img
                 src={product.image}
@@ -284,6 +285,7 @@ const Home = () => {
               <div className="font-semibold mb-1 text-white text-lg group-hover:text-[#60a5fa] transition">{product.title}</div>
               <div className="text-gray-400 text-sm mb-2 text-center">{product.description}</div>
               <div className="font-bold text-[#60a5fa] mt-auto text-lg">{product.price}</div>
+              
             </motion.div>
           ))}
         </div>
