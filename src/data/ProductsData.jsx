@@ -7,7 +7,7 @@ const products = [
       "type": "Notion Template",
       "description": "A free Notion template to help freelancers and creators track invoices and get paid on time.",
       "tags": ["notion", "invoice", "productivity"],
-      "image": "src/assets/notion.webp",
+      "image": "public/assets/notion.webp",
       "source":"https://shreyapattar.gumroad.com/l/notioninvoice?layout=profile"
       
     },
@@ -19,7 +19,7 @@ const products = [
       "type": "Course / Workshop",
       "description": "Boost your sales confidence and revenue in the last quarter with this proven strategy session.",
       "tags": ["sales", "confidence", "strategy"],
-      "image": "src/assets/salesBooster.webp",
+      "image": "public/assets/salesBooster.webp",
       "source":"https://shreyapattar.gumroad.com/l/salesbooster?layout=profile"
     },
     {
@@ -30,7 +30,7 @@ const products = [
       "type": "Bundle",
       "description": "Get 41+ high-value freelancing resources in one bundle: from mindset to pricing, outreach, and brand building.",
       "tags": ["bundle", "freelancing", "growth"],
-      "image": "src/assets/freelancebandal.webp",
+      "image": "public/assets/freelancebandal.webp",
       "source":"https://shreyapattar.gumroad.com/l/powerbundle?layout=profile"
     },
     {
@@ -41,7 +41,7 @@ const products = [
       "type": "eBook",
       "description": "A curated collection of Shreya's best tweets on freelancing, mindset, content, and audience growth.",
       "tags": ["twitter", "ebook", "content", "mindset"],
-      "image": "src/assets/twiter an.webp",
+      "image": "public/assets/twiter an.webp",
       "source":"https://shreyapattar.gumroad.com/l/twitteranthology2?layout=profile"
     },
     {
@@ -52,7 +52,7 @@ const products = [
       "type": "Freebie",
       "description": "Motivational and aesthetic wallpapers to stay consistent with your goals every month.",
       "tags": ["freebie", "wallpapers", "motivation"],
-      "image": "src/assets/wholesome.webp",
+      "image": "public/assets/wholesome.webp",
       "source":"https://shreyapattar.gumroad.com/l/wholesomemonths?layout=profile"
     },
     {
@@ -63,7 +63,7 @@ const products = [
       "type": "eBook",
       "description": "Top Twitter threads from Shreya on freelancing, content creation, and life lessons, all in one place.",
       "tags": ["ebook", "twitter", "freelancing", "content"],
-      "image": "src/assets/twitteranothology.webp",
+      "image": "public/assets/twitteranothology.webp",
       "source":"https://shreyapattar.gumroad.com/l/twitteranthology?layout=profile"
     },
     {
@@ -74,7 +74,7 @@ const products = [
       "type": "eBook",
       "description": "Learn how to build a personal brand on LinkedIn and attract 3–5 inbound leads per day organically.",
       "tags": ["linkedin", "personal brand", "leads", "audience"],
-      "image": "src/assets/cashing on ln.webp",
+      "image": "public/assets/cashing on ln.webp",
       "source":"https://shreyapattar.gumroad.com/l/linkedincash?layout=profile"
     },
     {
@@ -85,7 +85,7 @@ const products = [
       "type": "eBook",
       "description": "A 10-day roadmap to help beginners go from idea to client, based on Shreya's own freelance journey.",
       "tags": ["freelance", "beginner", "clients", "ebook"],
-      "image": "src/assets/freedom.webp",
+      "image": "public/assets/freedom.webp",
       "source":"https://shreyapattar.gumroad.com/l/ffreedom?layout=profile"
     },
     {
@@ -96,7 +96,7 @@ const products = [
       "type": "eBook",
       "description": "Proven scripts and strategies Shreya used to close $5,000+ deals on the phone as a freelancer.",
       "tags": ["sales", "scripts", "freelancing", "clients"],
-      "image": "src/assets/moneycall.webp",
+      "image": "public/assets/moneycall.webp",
       "source":"https://shreyapattar.gumroad.com/l/moneycalls?layout=profile"
     }
   ]
