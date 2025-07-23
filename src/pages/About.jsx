@@ -76,7 +76,7 @@ const Hero = ({ title, subtitle }) => {
         </motion.h2>
       </div>
       <motion.img
-        src="src/assets/shreayabout.jpg"
+        src="public/assets/shreayabout.jpg"
         alt="Shreya Pattar"
         className="w-full max-w-md rounded-2xl shadow-2xl object-cover border-4 border-[#3b82f6] hover:scale-110 hover:shadow-[0_8px_32px_0_rgba(59,130,246,0.3)] transition-transform duration-500 cursor-pointer"
         style={{ minWidth: 280, minHeight: 180 }}
