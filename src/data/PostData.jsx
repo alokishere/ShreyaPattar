@@ -12,7 +12,7 @@ const data = [{
         "excerpt": "Learn how Shreya built a LinkedIn audience of 146K+ followers, generating 3-5 inbound leads daily and six-figure income, starting from a single viral post.",
         "contentSnippet": "I started posting on LinkedIn in 2018 as a student. My first post went viral with 1.5M views, landing me 4 clients overnight. Consistency led to 3-5 daily leads and a six-figure income. Here’s how: optimize your profile, share authentic stories, and post regularly to build trust.",
         "tags": ["LinkedIn", "personal branding", "lead generation"],
-        "image": "public/assets/cashing on ln.webp",
+        "image": "/assets/cashing on ln.webp",
         "readTime": "6 min",
         "source": "Gumroad Product (https://shreyapattar.gumroad.com/l/linkedin)"
       },
@@ -25,7 +25,7 @@ const data = [{
         "excerpt": "A step-by-step guide to launching your freelancing career, from crafting offers to landing your first client in just 10 days.",
         "contentSnippet": "Freelancing can feel overwhelming, but it’s simpler than you think. Forget portfolios or bidding platforms—focus on creating high-value offers and pitching directly. I went from $0 to $1000+ in 10 days by targeting the right clients and showcasing value, not skills.",
         "tags": ["freelancing", "client acquisition", "business"],
-        "image": "public/assets/freedom.webp",
+        "image": "/assets/freedom.webp",
         "readTime": "5 min",
         "source": "Gumroad Product (https://shreyapattar.gumroad.com/l/freelancingfreedom)"
       },
@@ -38,7 +38,7 @@ const data = [{
         "excerpt": "Discover Shreya’s system for confidently closing high-value clients over the phone, overcoming fears and negotiation challenges.",
         "contentSnippet": "Closing $5000+ deals isn’t about being pushy—it’s about confidence and strategy. I used to dread client calls, but my ‘Money Call$’ system helps you qualify prospects, quote prices, and close deals systematically, even if you’re nervous.",
         "tags": ["freelancing", "sales", "client calls"],
-        "image": "public/assets/moneycall.webp",
+        "image": "/assets/moneycall.webp",
         "readTime": "5 min",
         "source": "Gumroad Product (https://shreyapattar.gumroad.com/l/moneycalls)"
       },
@@ -51,7 +51,7 @@ const data = [{
         "excerpt": "A guide to optimizing your LinkedIn profile to attract followers, build trust, and generate leads with actionable tips and examples.",
         "contentSnippet": "Your LinkedIn profile is your virtual handshake. Simple tweaks to your headline, About section, and content strategy can skyrocket your reach. I share exact examples to make your profile stand out and win your audience’s trust.",
         "tags": ["LinkedIn", "personal branding", "profile optimization"],
-        "image": "public/assets/freelancebandal.webp",
+        "image": "/assets/freelancebandal.webp",
         "readTime": "4 min",
         "source": "Gumroad Product (https://shreyapattar.gumroad.com/l/linkedinpowerprofile)"    },
       {
@@ -63,7 +63,7 @@ const data = [{
         "excerpt": "A collection of Shreya’s best LinkedIn posts that drove massive engagement and helped her grow to 50,000 followers in 20 months.",
         "contentSnippet": "Great content builds audiences. My best LinkedIn posts, compiled in #Anthology, show you how to write click-worthy content and grow your visibility. These posts helped me gain 50,000 followers in 20 months—learn what works.",
         "tags": ["content creation", "LinkedIn", "freelancing"],
-        "image": "public/assets/antholgy.webp",
+        "image": "/assets/antholgy.webp",
         "readTime": "4 min",
         "source": "Gumroad Product (https://shreyapattar.gumroad.com/l/anthology)"
       },
@@ -76,7 +76,7 @@ const data = [{
         "excerpt": "How Shreya’s HomeLink initiative uses AI to address homelessness by connecting people and providing up-skilling opportunities.",
         "contentSnippet": "HomeLink uses AI to match homeless individuals with homeowners and offer up-skilling. It’s proof that technology can solve real-world problems when driven by purpose. Here’s how we’re making an impact.",
         "tags": ["social impact", "technology", "HomeLink"],
-        "image": "public/assets/ultimateGuide.png",
+        "image": "/assets/ultimateGuide.png",
         "readTime": "6 min",
         "source": "LinkedIn Profile (https://www.linkedin.com/in/shreya-pattar/)"
       }

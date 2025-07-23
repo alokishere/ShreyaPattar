@@ -12,42 +12,42 @@ const featuredProducts = [
     title: "The Ultimate Writing Guide eBook",
     description: "Master the art of compelling storytelling and effective communication.",
     price: "$29.99",
-    image: "public/assets/ultimateGuide.png",
+    image: "/assets/ultimateGuide.png",
     alt: "Product 1"
   },
   {
     title: "Notion Template: Content Planner",
     description: "Organize your content ideas, schedule, and track your progress effortlessly.",
     price: "$19.99",
-    image: "public/assets/notion planner.png",
+    image: "/assets/notion planner.png",
     alt: "Product 2"
   },
   {
     title: "Online Course: Freelance Writing Jumpstart",
     description: "Launch your freelance writing career with practical strategies and tips.",
     price: "$99.00",
-    image: "public/assets/freelance guide.png",
+    image: "/assets/freelance guide.png",
     alt: "Product 3"
   }
 ];
 
 const blogPosts = [
   {
-    image: "public/assets/5tips.png",
+    image: "/assets/5tips.png",
     alt: "Blog 1",
     title: "5 Tips for Overcoming Writer's Block",
     desc: "Struggling to find your words? Here are five proven strategies to get your creativity flowing again.",
     link: "#"
   },
   {
-    image: "public/assets/5tips.webp",
+    image: "/assets/5tips.webp",
     alt: "Blog 2",
     title: "How to Build a Strong Online Writing Portfolio",
     desc: "Learn the essential steps to create a portfolio that attracts clients and showcases your best work.",
     link: "#"
   },
   {
-    image: "public/assets/dailyplan.jpg",
+    image: "/assets/dailyplan.jpg",
     alt: "Blog 3",
     title: "The Power of Daily Journaling for Creativity",
     desc: "Discover how a simple daily journaling habit can unlock new ideas and improve your writing skills.",
@@ -213,7 +213,7 @@ const Home = () => {
           className="flex-1 flex justify-center"
         >
           <motion.img
-            src="public/assets/shreyapic.jpg"
+            src="/assets/shreyapic.jpg"
             alt="Shreya Pattar"
             className="rounded-2xl w-80 h-80 object-cover shadow-2xl border-4 border-[#3b3f4a] hover:scale-105 transition-transform duration-300"
             whileHover={{ scale: 1.05, rotate: 2 }}

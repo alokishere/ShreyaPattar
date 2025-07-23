@@ -85,7 +85,7 @@ const Nav = () => {
             whileHover={{ rotate: 360, scale: 1.08, boxShadow: "0 0 16px #818cf8" }}
             transition={{ duration: 0.5, type: "spring" }}
             className="rounded-full h-11 w-11 object-cover border-2 border-[#818cf8] shadow-lg"
-            src="public/assets/logo.webp"
+            src="/assets/logo.webp"
             alt="Logo"
             draggable={false}
           />
@@ -159,7 +159,7 @@ const Nav = () => {
               <div className="flex items-center gap-3 mb-8">
                 <img
                   className="rounded-full h-10 w-10 object-cover border-2 border-[#818cf8] shadow"
-                  src="public/assets/logo.webp"
+                  src="/assets/logo.webp"
                   alt="Logo"
                   draggable={false}
                 />
